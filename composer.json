@@ -1,9 +1,9 @@
 {
     "name": "osoobe/dlvrit-api",
-    "description": "    ",
+    "description": "PHP Library for Dlvr.it API",
     "type": "library",
+    "version": "1.0.2",
     "license": "MIT",
-    "version": "1.0.1",
     "autoload": {
         "psr-4": {
             "Osoobe\\DlvrItApi\\": "src/"
@@ -15,5 +15,5 @@
             "email": "b4.oshany@gmail.com"
         }
     ],
-    "minimum-stability": "stable"
+    "minimum-stability": "beta"
 }
