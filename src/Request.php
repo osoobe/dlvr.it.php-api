@@ -159,7 +159,7 @@ class Request {
      * @return array
      */
     public function urlShortener(string $url, string $format='json') {
-        $url = "https://api.dlvrit.com/1/routes.$format?key=$this->key&url=$url";
+        $url = "https://api.dlvrit.com/1/shorten.$format?key=$this->key&url=$url";
         $data = $this->send($url);
         if ( $format == "json" ) {
             return json_decode($data, true);
