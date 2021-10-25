@@ -1,6 +1,6 @@
 <?php
 
-namespace Osoobe\DlvirItApi;
+namespace Osoobe\DlvrItApi;
 
 
 /**

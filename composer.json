@@ -1,12 +1,12 @@
 {
     "name": "osoobe/dlvirit-api",
-    "description": "dlvr.it API PHP Package",
+    "description": "    ",
     "type": "library",
     "license": "MIT",
     "version": "1.0.0",
     "autoload": {
         "psr-4": {
-            "Osoobe\\DlvirItApi\\": "src/"
+            "Osoobe\\DlvrItApi\\": "src/"
         }
     },
     "authors": [
